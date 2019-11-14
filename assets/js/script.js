@@ -269,6 +269,7 @@ $(document).ready(function()
 	$('.tgl').datetimepicker(
 	{
 		format: 'DD-MM-YYYY',
+		useCurrent: false,
 		locale:'id'
 	});
 	$('#tgl_1').datetimepicker(
