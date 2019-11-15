@@ -14,7 +14,7 @@
 						<?php endif; ?>
 						<?php if ($log_perubahan): ?>
 							<p>
-								Ekspor perubahan terakhir pada <?= tgl_indo_out($log_perunbahan->tgl_ekspor) ?> dengan total data <?= $log_perubahan->total ?>.
+								Ekspor perubahan terakhir pada <?= tgl_indo_out($log_perubahan->tgl_ekspor) ?> dengan total data <?= $log_perubahan->total ?>.
 							</p>
 						<?php endif; ?>
 						<div class="form-group">

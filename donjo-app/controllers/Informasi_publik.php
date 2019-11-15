@@ -56,7 +56,7 @@ class Informasi_publik extends Admin_Controller {
 		// Tulis log ekspor
 		$log = array(
 			'kode_ekspor' => 'informasi_publik',
-			'semua' => 1,
+			'semua' => $this->input->post('data_ekspor'),
 			'total' => count($data)
 		);
 		$this->log_ekspor_model->tulis_log($log);
